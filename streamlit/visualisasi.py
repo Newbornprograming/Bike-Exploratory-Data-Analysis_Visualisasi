@@ -92,7 +92,7 @@ fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(12, 6))
 ax = day_new = bike_df[['temp_day','atemp_day','hum_day','windspeed_day','casual_day', 'registered_day','cnt_day']]
 ax = sns.heatmap(day_new.corr(), annot=True, cmap='Greens', linewidths=1)
 st.pyplot(fig)
-st.write('2. Menampilkan korleasi dimana tiap fitur atau kolom mempengaruhi nilai count')
+st.write('2. cnt_day (jumlah total penyewaan) sangat berkorelasi dengan registered_day (penyewaan oleh pengguna terdaftar). Ini menunjukkan bahwa sebagian besar penyewaan berasal dari pengguna yang terdaftar.')
 
 
 # beri jarak
