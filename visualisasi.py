@@ -20,7 +20,7 @@ max_date = bike_df["dteday"].max()
 with st.sidebar:
 
 # Menampilkan Produk Penyewaan Sepeda
-    st.image('bike.jpg')
+    st.image('image/bike.jpg')
 
 # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
