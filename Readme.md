@@ -2,7 +2,7 @@
 
 - Nama:Yohanes Deny Novandia
 - Email:yohandeny.10@gmail.com
-- # Username Dicoding: yohanes_deny_novandi
+- Username Dicoding: yohanes_deny_novandi
 
   # ![Bike Sharing Visualisasi](visualisasi.gif)
 
